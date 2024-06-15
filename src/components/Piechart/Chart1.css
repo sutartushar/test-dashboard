@@ -1,0 +1,32 @@
+.chart-container{
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 3rem;
+    width: 100%;
+}
+
+.fd-option{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 7px;
+    margin-left: 2rem;
+}
+
+#options{
+padding: 5px;
+}
+
+.pie-container{
+    width: 30%;
+    margin-left: 3rem;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border: 1px solid #EBEBEB;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.fd-chart{
+    width: 60%;
+}

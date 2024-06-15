@@ -1,0 +1,33 @@
+.nav-container{
+    display: flex;
+    margin: 0 2rem 0 2rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.6rem;
+    background: white;
+}
+
+.text-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 25%;
+}
+
+div > a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.profile{
+    border: 2px solid #4A4ED4;
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+.profile:hover{
+    cursor: pointer;
+}
